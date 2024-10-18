@@ -11,4 +11,15 @@ We implement stochastic gradient descent (SGD) for weight optimization, strictly
 2) **Systematic Search:** Employ a grid search approach to explore at least two values for each hyperparameter, utilizing nested loops for organization.
 3) **Performance Evaluation:** After optimizing our model, evaluate it on a separate test set and report the final training and test MSE values. Additionally, include the training cost values from the last 10 iterations of gradient descent.
 
-This assignment enhanced our understanding of regression models and hyperparameter tuning but also emphasizes the importance of proper validation in machine learning.
+The model was trained using various combinations of learning rates, mini-batch sizes, and number of epochs, as outlined below:
+1) Learning Rates Tested: 1e-5, 1e-4, 1e-3
+2) Mini-Batch Sizes Tested: 32, 64, 128
+3) Number of Epochs Tested: 50, 100, 150
+
+Higher learning rates, such as 1e-1 and 1e0, led to overshooting in MSE values, causing instability in the form of "NaN" and "inf" values. Therefore, lower learning rates were chosen for further experimentation. The optimal hyperparameters were found to be:
+
+Optimal Number of Epochs: 150
+Optimal Learning Rate: 0.0001
+Optimal Mini-Batch Size: 64
+Training MSE: 0.7645
+Testing MSE: 0.7691
