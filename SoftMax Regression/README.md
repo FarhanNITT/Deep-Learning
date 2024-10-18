@@ -4,7 +4,7 @@ In this assignment, you'll train a 2-layer softmax neural network to classify im
 
 The objective is to minimize the cross-entropy loss function, defined as:
 
-![soft](random.jpg)
+![soft](crossentropyloss.jpg)
 ​
 where, 
 𝑛 is the number of examples, 𝑦(𝑖) represents the true labels, 𝑦^(𝑖) the predicted probabilities, and α a regularization constant. It's important to regularize the weights while leaving the biases unregularized.
