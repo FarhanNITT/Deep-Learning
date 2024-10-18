@@ -1,6 +1,6 @@
  # Training 2-Layer Linear Neural Networks with Stochastic Gradient Descent 
 
-In this assignment, we develop an age regression model that takes a 48x48 pixel grayscale face image and predicts the age of the individual as a real number. The dataset is provided in four separate files for training and testing purposes.
+In this assignment, we develop an age regression model that takes a 48x48 pixel grayscale face image and predicts the age of the individual as a real number. The dataset is provided in four separate files for training and testing purposes. [Dataset](https://drive.google.com/drive/folders/159VCdPYo8FVZOmxLXbWJTNSFf9NnXHf3?usp=sharing)
 
 Our model is a simple 2-layer linear neural network, described mathematically as 𝑦^ =g(x;w)=x.Tw + b, where w represents the weights and 𝑏 the bias. The goal is to minimize the mean squared error (MSE) cost function, which measures the difference between the predicted ages and the actual ages.
 
