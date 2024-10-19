@@ -1,4 +1,4 @@
-# Implementation of softmax regression
+# Implementation of softmax regression from scratch
 
 In this assignment, we train a 2-layer softmax neural network to classify images of fashion items from the Fashion MNIST dataset. The network will take 28x28 pixel images, which will be flattened into 784-dimensional vectors, and output a vector of 10 probabilities corresponding to different fashion categories (such as shoes, t-shirts, and dresses). [Dataset](https://drive.google.com/drive/folders/188tVVwu-tNmRpW2UnGIwqcrbLVWtbUJq?usp=sharing)
 
