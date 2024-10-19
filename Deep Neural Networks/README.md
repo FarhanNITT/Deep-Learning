@@ -7,3 +7,9 @@ The architecture of the neural network will follow these equations:
 <p align="center">
   <img src="FFNN.jpg" alt="ff" width="300">
 </p>
+
+Our task is to minimize the unregularized cross-entropy cost function defined as:
+
+<p align="center">
+  <img src="crossentropy.jpg" alt="ff" width="300">
+</p>
