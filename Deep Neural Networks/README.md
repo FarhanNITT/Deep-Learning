@@ -1,6 +1,6 @@
 # Back Propogation of Multi-layer Neural Network
 
-In this assignment, we develop a multi-layer feed-forward neural network to classify images of fashion items from the Fashion MNIST dataset, which consists of 10 different classes. The network will process 28x28 pixel images, converting them into 784-dimensional vectors, and output a probability distribution over the classes. A key focus of this assignment is implementing the backpropagation algorithm from scratch to efficiently compute gradients for training.
+In this assignment, we develop a multi-layer feed-forward neural network to classify images of fashion items from the Fashion MNIST dataset, which consists of 10 different classes. The network will process 28x28 pixel images, converting them into 784-dimensional vectors, and output a probability distribution over the classes. A key focus of this assignment is implementing the backpropagation algorithm from scratch to efficiently compute gradients for training. [Dataset](https://drive.google.com/drive/folders/188tVVwu-tNmRpW2UnGIwqcrbLVWtbUJq?usp=sharing)
 
 The architecture of the neural network will follow these equations:
 
