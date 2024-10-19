@@ -4,4 +4,7 @@ In this assignment, we develop a multi-layer feed-forward neural network to clas
 
 The architecture of the neural network will follow these equations:
 
-![FFNN](FFNN.jpg)
+<p align="center">
+  <img src=FFNN.jpg" alt="Description" width="300">
+</p>
+\
