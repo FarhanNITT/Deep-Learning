@@ -21,5 +21,5 @@ The final visualization combines:
 2) **Optimization Landscape:** Highlighting the loss function surface in the PCA-reduced space.
 
 <p align="center">
-  <img src="Crossentropy.jpg" alt="ff" width="500">
+  <img src="outputF.png" alt="ff" width="500">
 </p>
