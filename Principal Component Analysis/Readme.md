@@ -20,6 +20,11 @@ The final visualization combines:
 1) **SGD Trajectories:** Representing the movement of the network's parameters during optimization.
 2) **Optimization Landscape:** Highlighting the loss function surface in the PCA-reduced space.
 
+
+
+
+
+
 <p align="center">
   <img src="outputF.png" alt="ff" width="500">
 </p>
