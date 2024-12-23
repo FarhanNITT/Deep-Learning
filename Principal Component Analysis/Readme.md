@@ -13,3 +13,13 @@ This assignment visualizes the gradient descent trajectory for a fixed fully con
 1) **Train the FCNN:** Perform SGD on the network twice using the provided train.py script. Save parameter trajectories (p) and cross-entropy loss values (fCE(p)).
 2) **PCA Analysis:** Use sklearn.decomposition.PCA to compute the first two principal components from collected p vectors.
 3) **Visualization:** Project parameter trajectories into the 2D PCA space. Generate a 3D scatter plot of SGD paths. Compute and render the loss surface over a dense PCA-reduced grid.
+
+### Output
+The final visualization combines:
+
+1) **SGD Trajectories:** Representing the movement of the network's parameters during optimization.
+2) **Optimization Landscape:** Highlighting the loss function surface in the PCA-reduced space.
+
+<p align="center">
+  <img src="Crossentropy.jpg" alt="ff" width="500">
+</p>
